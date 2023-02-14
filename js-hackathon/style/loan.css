@@ -1,0 +1,124 @@
+header
+{
+    margin:1em;
+    margin-bottom: 0px;
+}
+.nat_logo
+{
+    width: 140px;
+    height: 80px;
+    cursor: pointer;
+   
+}
+.stock_info
+{
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 10px;
+    
+}
+
+.stock_container
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+.stock_status {
+    width: 6px;
+    height: 6px;
+    background:  linear-gradient(white, darkgreen);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    color: transparent;
+    user-select: none;
+  }
+.menu
+{
+     display: flex;
+     align-items: flex-end;
+     
+}
+li{
+    list-style-type: none;
+    padding-left: 70px;
+}
+#anchor
+{
+    text-decoration: none;
+}
+.menu_heading
+{
+    width: 10%;
+   
+}
+ul{
+    display: flex;
+    
+}
+li:hover
+{
+    color:purple;
+}
+
+.main_container
+{   margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap:1em;
+    
+    
+}
+.main_container > div:nth-child(odd)
+{
+  
+}
+.para0
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_wrapper
+{   
+    height: 70%;
+    width: 60%;
+    background-color: white;
+
+}
+main
+{
+    margin-top: 10px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.name
+{
+    display: flex;
+
+}
+.space
+{
+    padding-left: 15px;
+}
+.pur
+{
+    color: purple;
+}
+.danger
+{
+    color: red;
+}
+.fa-magnifying-glass:before
+{
+    color:purple
+}
+

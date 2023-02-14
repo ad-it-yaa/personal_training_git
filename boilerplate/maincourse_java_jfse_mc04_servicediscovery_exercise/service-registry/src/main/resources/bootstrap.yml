@@ -1,0 +1,2 @@
+#Add properties to tell the built-in Eureka Client not to register with itself, as this application is acting as a server.
+

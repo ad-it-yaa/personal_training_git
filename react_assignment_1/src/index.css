@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.footer
+{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+div.ui.card.center.three.item.menu:nth-child(even)
+{
+  background-color: RGB(244 241 233);
+  margin: 0;
+}
+#mt
+{
+  margin-top: 20px;
+}
+@media (min-width: 505px) 
+{
+  div.ui.card.center.three.item.menu:nth-child(odd),div.ui.card.center.three.item.menu:nth-child(even)
+  {
+    width: 70%;
+  }
+
+}
+#font
+{
+  font-family:cursive;
+ 
+}
+.circle
+{
+  height:300px;
+  width: 300px;
+  background-color: rgb(255,235,151);
+  border-radius: 300px;
+}
+.eye1
+{
+  position: fixed;
+   left: 730px;
+  top: 200px;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 30px;
+}
+.eye2
+{
+  position: fixed;
+  left: 600px;
+  top: 200px;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 30px;
+}
+.sad
+{
+  position: fixed;
+  left: 630px;
+  top:310px;
+  height: 5px;
+  width: 100px;
+  background-color: black;
+  border-radius: 91%;
+  transform: translate('360deg')
+}
+@media (max-width: 500px) 
+{
+  .eye1
+  {
+    position: fixed;
+     left: 120px;
+    top: 200px;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .eye2
+  {
+    position: fixed;
+    left: 270px;
+    top: 200px;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .sad
+  {
+    position: fixed;
+    left: 170px;
+    top:310px;
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    border-radius: 91%;
+    transform: translate('360deg')
+  }
+
+}
+label
+{
+  display: inline-block;
+  width: 160px;
+}

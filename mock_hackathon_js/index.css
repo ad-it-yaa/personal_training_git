@@ -1,0 +1,31 @@
+body
+{
+    background-image: linear-gradient(to right, white, lightblue,white);
+    display: flex;
+    justify-content: center;
+    
+}
+.container
+{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(203, 234, 244);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+button{
+    height: 50px;
+    width: 110px;
+
+}
+button:hover
+{
+    background-color: orange;
+}
+img{
+    height:110px;
+}

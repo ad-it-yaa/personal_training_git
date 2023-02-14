@@ -1,0 +1,39 @@
+.summary_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 1;
+    /* background-image: radial-gradient(circle at center center, #ede3f3, #42155E), repeating-radial-gradient(circle at center center, #ede3f3, #ede3f3, 4px, transparent 8px, transparent 4px); */
+    background-blend-mode: multiply;
+    padding-bottom: 20px;
+    height: 100px;
+    
+}
+.summary
+{
+    height: 10%;
+    width: 70%;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    
+
+}
+.summarise
+{
+    display: flex;
+    justify-content: center;
+}
+.summary_heading
+
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.summary_content
+{
+    width: 600px;
+}

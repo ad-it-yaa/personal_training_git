@@ -1,0 +1,12 @@
+.page-wrap {
+    min-height: 80vh;
+    padding-left: 400px;
+}
+@media (max-width:645px)
+{
+    .page-wrap
+    {
+    min-height: 80vh;
+    padding-left: 330px;   
+}
+}

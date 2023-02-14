@@ -1,0 +1,35 @@
+.summary_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42155E;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #ede3f3, #42155E), repeating-radial-gradient(circle at center center, #ede3f3, #ede3f3, 4px, transparent 8px, transparent 4px);
+    background-blend-mode: multiply;
+    padding-bottom: 20px;
+}
+.summary
+{
+    height: 20%;
+    width: 70%;
+    color: white;
+    border: solid 8px white;
+    
+
+}
+.summarise
+{
+    display: flex;
+    justify-content: center;
+}
+.summary_heading
+
+{
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.summary_content
+{
+    width: 600px;
+}

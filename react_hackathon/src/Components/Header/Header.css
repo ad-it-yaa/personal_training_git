@@ -1,0 +1,103 @@
+.header
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    
+}
+.logo
+{
+    margin-left: 20px;
+    padding-right: 40px;
+}
+.nav_menu
+{
+    display: inline;   
+    color: rgb(1,158,172);
+    font-family: RNHouseSansW01-Regular;
+    text-decoration: none;
+
+
+
+}
+.nav_menu{
+     
+    position: relative;
+}
+.nav_menu::before
+{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 0%;
+    background-color: rgb(1,158,172);
+    top:20px;
+    transition: 0.1s ease-out;    
+}
+
+a:hover::before
+{
+    
+        width:100%;
+}
+.nav_div
+{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 500px; 
+}
+.search
+{
+    width: 140px;
+    height: 30px;
+    border:solid 3px rgb(1,158,172);
+}
+.placeholder
+{
+    position: relative;
+    right: 140px;
+    font-size: 14px;
+    transition: 0.3s ease-out;
+    pointer-events: none;
+    padding: 0 5px;
+    
+}
+.hamburger
+{
+    display: none;
+}
+@media (max-width:645px)
+{
+.nav_container
+{
+   display: none !important;
+   background-color:yellow;
+}
+.hamburger
+{
+    display:block;
+}
+.header
+{
+    justify-content: space-around;
+    align-items:center;
+}
+.ham
+{
+    
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0px
+}
+}

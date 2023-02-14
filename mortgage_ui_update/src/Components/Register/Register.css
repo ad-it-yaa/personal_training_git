@@ -1,0 +1,21 @@
+.form_content
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    line-height: 20px;
+    
+}
+.form
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="p-3 bg-info text-white maindiv">
+            <span><img src="logo.png"></span>
+            <h1>Sign-up Portal</h1>
+            <ul>
+                <li><a href="./index.html">Cancel</a></li>
+                
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="register_detailer">
+            <div class="image container">
+                
+                <img src="./register.png"></div>
+              </div>
+        </div>
+        <div class="register">
+            <div class="register_container">
+        <label>Firstname:</label>
+                <input type="text"  id="fname" required>
+               <br><br>
+            <label>Lastname:</label>
+                <input type="text"  id="lname" required>
+                <br><br>
+            <label>Username:</label>
+                <input type="text"  id="uname" required>
+                <br><br>
+            <label>Address:</label>
+                <textarea rows="6"   id="address" required></textarea>
+                <br><br>
+            <label>Roll Number:</label>
+                <input type="number"  id="rollno" required>
+                <br><br>
+             <label>Phone Number:</label>
+                <input type="number"  id="phone" required>
+                <br><br>
+            <label>Email:</label>
+                <input type="email"  id="email" required>
+                <br><br>
+            <label>Password:</label>
+                <input type="password"  id="pass" required>
+            <br>
+            <br>
+            <br>
+
+            <button type="submit" onclick="adduser()">Submit</submit>
+            </div>
+        </div>
+    </main>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

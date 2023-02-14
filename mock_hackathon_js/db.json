@@ -1,0 +1,44 @@
+{
+  "logindata": [
+    {
+      "fname": "sas",
+      "lname": "asasa",
+      "id": "ssas",
+      "address": "asasasa",
+      "rollno": "1212",
+      "phone": "1234567890",
+      "email": "asasas",
+      "pass": "sasas"
+    },
+    {
+      "fname": "Lastname",
+      "lname": "Firstname",
+      "id": "Username",
+      "address": "Myname",
+      "rollno": "1235",
+      "phone": "1234567890",
+      "email": "aa@aa.aa",
+      "pass": "bb"
+    },
+    {
+      "fname": "Adz",
+      "lname": "Zda",
+      "id": "xyz",
+      "address": "sasada",
+      "rollno": "12345",
+      "phone": "1234554321",
+      "email": "xyzz@yxz.ss",
+      "pass": "xx"
+    },
+    {
+      "fname": "sasa",
+      "lname": "sasas",
+      "id": "sasas",
+      "address": "sasasas",
+      "rollno": "1234567",
+      "phone": "5432112345",
+      "email": "aa@aa.aa",
+      "pass": "aaa"
+    }
+  ]
+}

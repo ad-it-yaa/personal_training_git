@@ -1,0 +1,110 @@
+*
+{
+    margin: 0px;
+}
+
+li
+{
+    list-style-type: none;
+    padding-right: 100px;
+    user-select: none;
+    width: 50px;
+   
+    
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.spacing
+{
+    display: flex;
+    width: 90vw;
+    color: white;    
+}
+header img{
+    height: 60px;
+    width: 110px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    ;
+}
+
+.maindiv
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+main
+{
+    display: flex;
+}
+.register_detailer
+{
+    
+    height: 90vh;
+    width: 40vw;
+
+}
+.image_container
+{
+    height: 100%;
+}
+.register
+{
+    height: 90vh;
+    width: 50vw; 
+    display: flex;
+    justify-content: center;
+}
+.register_container
+{
+    height: 90%;
+    width:50%;
+    margin-top: 40px;
+}
+label
+{
+    width: 140px;
+}
+input,textarea
+{
+    width: 300px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button
+{
+    height: 70px;
+    width: 150px;
+    background-color: lightcoral;
+    border-radius: 40px;
+    margin-left: 210px;
+}
+button:hover
+{
+    color: white;
+
+}

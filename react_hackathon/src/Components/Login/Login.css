@@ -1,0 +1,108 @@
+.login_heading_container
+{
+    height: 10vh;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_heading 
+{
+    color: RGB(66 21 94);
+    font-family:RNHouseSans-Regular Verdana Helvetica San-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.section_container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.login_section1
+{
+    
+    border: solid rgb(255, 174, 66) 1px;
+    
+    margin-right: 40px;
+}
+.login_section2
+{
+    height: 60vh;
+    width: 35vw;
+    border: solid grey 1px;
+    margin-left: 20px;
+}
+.login_section2_header
+{
+    height: 13%;
+    width: 100%;
+    background-color: RGB(66 21 94);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form_placeholder_login
+{
+    position: relative;
+    right: -6px;
+    user-select: none;
+    bottom: 60px;
+    padding: 0 5px;
+    transition: 0.3s;
+    background-color: white;
+}
+.login_input
+{
+    width: 360px !important;
+    height: 50px !important;
+}
+.login_input1
+{
+    width: 360px;
+    margin-top: 10px;
+}
+.login_submit
+{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 120px;
+    background-color: rgb(29,122,139);
+    border: 0;
+    color: white;
+    font-size:16px;
+    font-family: RNHouseSansW01-Regular;
+}
+.login_section2_header
+{
+    font-family:RNHouseSans-Regular Verdana Helvetica San-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.pda
+{
+    margin-left: 100px;
+    
+}
+.pdad
+{
+    margin-left:10px
+}

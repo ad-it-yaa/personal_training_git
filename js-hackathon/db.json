@@ -1,0 +1,28 @@
+{
+  "User": [
+    {
+      "id": "xxxx@xxx.xx",
+      "name": "adsasa",
+      "address": "adadadaddada",
+      "account": "121331",
+      "mobile": "1234567890",
+      "pass": "dadadada"
+    },
+    {
+      "id": "john@gmail.com",
+      "name": "John Wick",
+      "address": "12, 21st Street,\n41st Avenue,\n3rd Block,\nChennai - 02",
+      "account": "1234567890",
+      "mobile": "0987654321",
+      "pass": "john@1234"
+    },
+    {
+      "id": "s.aditya21@rbos.co.uk",
+      "name": "Aditya",
+      "address": "ksnfksfkj",
+      "account": "1234567890",
+      "mobile": "0987654321",
+      "pass": "aditya"
+    }
+  ]
+}

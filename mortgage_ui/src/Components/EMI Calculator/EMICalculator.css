@@ -1,0 +1,11 @@
+.emi_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.emi_label
+{
+    width: 150px;
+}

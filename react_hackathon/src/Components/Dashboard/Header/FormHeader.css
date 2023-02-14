@@ -1,0 +1,42 @@
+ .form_header
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: wheat;
+    
+}
+
+.power_button
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    
+}
+.form_logo
+{
+    margin-left: 20px;
+    padding-right: 40px;
+    cursor: pointer;
+   
+}
+.nav_menua
+{
+    color: white !important;
+}
+.red_colo
+{
+    color:red;
+}
+.pd
+{
+    margin-right: 40px;
+    text-decoration: none !important;
+}

@@ -1,0 +1,11 @@
+{
+  "readlater": [],
+  "auth": [
+    {
+      "id": "admin",
+      "email": "aditya@aditya.aditya",
+      "password": "password",
+      "phone": 1234567890
+    }
+  ]
+}

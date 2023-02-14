@@ -1,0 +1,8 @@
+ .form_header
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: purple    ;
+    width: 100vw;
+}

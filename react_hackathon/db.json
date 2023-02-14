@@ -1,0 +1,45 @@
+{
+  "login": [
+    {
+      "id": "test@test.com",
+      "name": "test",
+      "address": "naditya\nadadada\naditya\nadadada\ndadada\n",
+      "account": "1234567899",
+      "phone": 1234567890,
+      "password": "test",
+      "card": 4075,
+      "amount": 4066.66
+    },
+    {
+      "id": "suriya@rbos.co.uk",
+      "name": "Aditya",
+      "address": "18, 17th Block, 16 Flats,\n12th Avenue,\nChennai -11",
+      "account": "6789492492",
+      "phone": 9863456789,
+      "password": "Aditya@12",
+      "card": 6554,
+      "amount": "7332.00"
+    }
+  ],
+  "image": [
+    {
+      "url": "https://i.ibb.co/K5JM8KL/img1.jpg",
+      "url1": "https://i.ibb.co/s313pKw/OTP.jpg"
+    },
+    {
+      "url": "https://i.ibb.co/zm0GFDX/img2.jpg",
+      "url1": "https://i.ibb.co/DYsKbhK/OTP.jpg"
+    },
+    {
+      "url": "https://i.ibb.co/3Rsyg5Q/img3.jpg",
+      "url1": "https://i.ibb.co/jz78yCT/OTP.jpg"
+    },
+    {
+      "url": "https://i.ibb.co/Hhc9gYh/img4.jpg",
+      "url1": "https://i.ibb.co/3kJ2wrs/OTP.jpg"
+    },
+    {
+      "url": "https://i.ibb.co/WgVrQcF/img5.jpg"
+    }
+  ]
+}

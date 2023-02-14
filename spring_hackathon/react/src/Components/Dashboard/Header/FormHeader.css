@@ -1,0 +1,66 @@
+ .form_header
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: wheat;
+    
+}
+
+.power_button
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    
+}
+.form_logo
+{
+    margin-left: 20px;
+    padding-right: 40px;
+    cursor: pointer;
+   
+}
+.nav_menua
+{
+    color: white !important;
+}
+.red_colo
+{
+    color:red;
+}
+.pd
+{
+    margin-right: 40px;
+    text-decoration: none !important;
+}
+@media (max-width:645px)
+{
+    .form_header
+    {
+        position: absolute;
+        right: 7px;
+        padding: 0;
+        
+
+    }
+    .pd
+    {
+        color: purple !important; 
+    }
+    .nav_diva
+    {
+        font-size: small;
+    }
+    .mvz
+    {
+        position: absolute;
+        right: 8px !important;
+    }
+}

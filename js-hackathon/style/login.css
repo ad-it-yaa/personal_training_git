@@ -1,0 +1,180 @@
+header
+{
+    margin:1em;
+    margin-bottom: 0px;
+}
+.nat_logo
+{
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+   
+}
+.stock_info
+{
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 10px;
+    align-items: baseline;
+    
+}
+
+.stock_container
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+.stock_status {
+    width: 6px;
+    height: 6px;
+    background:  linear-gradient(white, darkgreen);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    color: transparent;
+    user-select: none;
+  }
+.menu
+{   
+     display: flex;
+     align-items: flex-end;
+     
+}
+
+ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+li:hover
+{
+    color:purple;
+}
+a{
+    display: inline-block;
+    position: relative;
+}
+a::before
+{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    background-color: rgb(212, 96, 212);
+    bottom: -2px;
+    transition: width 0.10s ease-out;
+}
+ a:hover::before
+ {
+    width: 100%;
+ }
+
+ .search
+ {
+     display: flex;
+     justify-content: flex-end;
+     margin: 0px;
+   
+     
+ 
+ }
+ .fa-solid, .fas {
+     font-family: "Font Awesome 6 Free";
+     font-weight: 900;
+     position:  absolute;
+     right: 25px;
+     padding-top: 6px;
+     
+ }
+ *, *::before, *::after
+ {
+     margin: 0;
+ padding:0;
+ box-sizing:border-box;
+ }
+ 
+
+.main_container
+{   margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap:1em;
+    
+}
+.main_container > div:nth-child(odd)
+{
+    background: repeating-linear-gradient(
+        45deg,
+        #e6c1eb,
+        #d1a2d7 1px,
+        #ec93f7 1px,
+        #e29cec 2px
+      );
+}
+.para0
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_wrapper
+{   
+    height: 70%;
+    width: 60%;
+    background-color: white;
+
+}
+main
+{
+    margin-top: 10px;
+}
+label
+{
+    width: 140px;
+    color: black;
+    font-weight: bolder;
+    font-family:cursive;
+}
+.button
+{
+    
+    height: 60px;
+    width: 140px;
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+}
+.button:hover
+{
+    opacity: .7;
+}
+#failed
+{
+    color: darkred;
+    font-weight: bolder;
+    
+}
+#anchor
+{
+    text-decoration: none;
+}
+.fa-magnifying-glass:before
+{
+    color:purple
+}
+#id , #pass
+{
+    width: 260px;
+}
+.highlight
+{
+    color: purple;
+    font-weight: bolder;
+}
